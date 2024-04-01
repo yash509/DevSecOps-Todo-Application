@@ -182,7 +182,7 @@ pipeline {
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){
                        sh 'docker-scout quickview yash5090/node-app:latest'
                        sh 'docker-scout cves yash5090/node-app:latest'
-                       sh 'docker-scout recommendations yash5090/node-appp:latest'
+                       sh 'docker-scout recommendations yash5090/node-app:latest'
                    }
                 }   
             }
