@@ -226,6 +226,11 @@ pipeline {
                 //}
             }
         }
+        stage("Docker Compose Deployment"){
+            steps{
+                sh "docker-compose down && docker-compose up -d"
+            }
+        }
         stage('Deploy to Kubernetes'){
             steps{
                 script{
