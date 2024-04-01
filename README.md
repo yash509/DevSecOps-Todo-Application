@@ -2,5 +2,4 @@
 
 
 
-# All thanks goes to Shubham Londhe Sir for the nodejs todo appplication code
-# https://github.com/LondheShubham153/node-todo-cicd.git
+# All thanks goes to Shubham Londhe Sir for the nodejs todo application code :- https://github.com/LondheShubham153/node-todo-cicd.git
