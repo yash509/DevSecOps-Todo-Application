@@ -249,6 +249,7 @@ pipeline {
                     sh "kubectl get all "
                     sh "kubectl get pods " 
                     sh "kubectl get svc " 
+                    sh "kubectl get ns"
                 } 
             } 
         } 
