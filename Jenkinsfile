@@ -219,7 +219,7 @@ pipeline {
            }
           }
         }
-        stage('Deploy to container'){
+        stage('Deploy to Docker Container'){
             steps{
                 //dir('BMI Calculator (JS)') {
                     sh 'docker run -d --name node-app -p 8000:8000 yash5090/node-app:latest' 
